@@ -1,10 +1,10 @@
 import React from 'react';
 import { styles } from './styles';
 import PropTypes from 'prop-types';
-
+//there must be more personification done
 const images = {
-  copycat: 'https://content.codecademy.com/courses/React/react_photo_copycat.png',
-  quietcat: 'https://content.codecademy.com/courses/React/react_photo_quietcat.png'
+  quietcat: 'https://content.codecademy.com/courses/React/react_photo_quietcat.png',
+  copycat: 'https://content.codecademy.com/courses/React/react_photo_copycat.png'
 };
 
 export class CopyCat extends React.Component {

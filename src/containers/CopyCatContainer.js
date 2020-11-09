@@ -10,7 +10,7 @@ export class CopyCatContainer extends React.Component {
       input: '',
       name: ''
     };
-
+//mnjknjnkjnkjnkjnjkjkn
     this.toggleTape = this.toggleTape.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleName = this.handleName.bind(this);
@@ -39,4 +39,5 @@ export class CopyCatContainer extends React.Component {
     );
   };
 }
+
 export default CopyCatContainer;
