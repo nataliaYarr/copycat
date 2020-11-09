@@ -39,7 +39,4 @@ export class CopyCatContainer extends React.Component {
     );
   };
 }
-
 export default CopyCatContainer;
-
-
