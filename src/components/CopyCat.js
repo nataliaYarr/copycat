@@ -1,7 +1,7 @@
 import React from 'react';
 import { styles } from './styles';
 import PropTypes from 'prop-types';
-//there must be more personification
+//here are some changes
 const images = {
   quietcat: 'https://content.codecademy.com/courses/React/react_photo_quietcat.png',
   copycat: 'https://content.codecademy.com/courses/React/react_photo_copycat.png'
@@ -18,13 +18,12 @@ export class CopyCat extends React.Component {
         
         <input type='text' value={this.props.input} onChange={this.props.handleChange} />
 
-        <p> Copied text: {this.props.copying && this.props.input} </p>  
-
         <img 
         style={styles.imgStyles}
         alt='cat'
         src={this.props.copying ? images.copycat : images.quietcat} 
         onClick={this.props.toggleTape}/>
+         <p> Copied text: {this.props.copying && this.props.input} </p> 
         
       </div>
     );
