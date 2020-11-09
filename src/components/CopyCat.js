@@ -1,7 +1,7 @@
 import React from 'react';
 import { styles } from './styles';
 import PropTypes from 'prop-types';
-//there must be more personification done
+//there must be more personification
 const images = {
   quietcat: 'https://content.codecademy.com/courses/React/react_photo_quietcat.png',
   copycat: 'https://content.codecademy.com/courses/React/react_photo_copycat.png'
