@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { CopyCat } from '../components/CopyCat.js';
 
 export class CopyCatContainer extends React.Component {
